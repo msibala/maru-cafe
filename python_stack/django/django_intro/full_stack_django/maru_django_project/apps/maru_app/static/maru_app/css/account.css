@@ -1,0 +1,145 @@
+*
+
+{
+    margin: 0px auto;
+    padding: 0px auto; 
+   
+}
+
+#container{
+    height: 1700px;
+    width: 1600px;
+    background-color: rgb(240,239,231);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    /* border: 1px solid black; */
+}
+#header{
+    height: 50px;
+    width: 1450px;
+    padding-top: 20px;
+    word-spacing: 50px;
+    /* border: 1px solid green; */
+    display: flex;
+    border-bottom: 2px solid rgb(212,211,205);
+}
+#headersides{
+    text-decoration: none;
+    width: 483px;
+    display: flex;
+    /* border: 2px solid black; */
+
+}
+a:link {
+    text-decoration: none;
+    color: black;
+    padding-top: 16px;
+}
+#headercenter{
+    word-spacing: 15px;
+    width: 483px;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-top: 12px;
+
+}
+h1{
+    padding-top: 16px;
+}
+#header2{
+    height: 75px;
+    width: 495px;
+    text-align: center;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#body{
+    height: 550px;
+    width: 669px;
+    /* border: 2px solid green; */
+    text-align: center;
+    letter-spacing: 1px;
+ 
+    /* border: 2px solid purple; */
+
+}
+.fields{
+    height: 40px;
+    width: 401px;
+
+
+}
+.btn {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    width: 392px;
+    height: 43px;
+
+}
+#footer{
+    height: 341px;
+    width: 1594px;
+    /* border: 2px solid black; */
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+
+#footer_left{
+    height: 305px;
+    width: 600px;
+    /* border: 2px solid blue; */
+    padding-top: 20px;
+    font-size: 15px;
+    
+} 
+#social{
+    width: 100px;
+    height: 100px;
+}
+.Icon--facebook{
+    height: 200px;
+    width: 200px;
+}
+.Icon--instagram{
+    height: 200px;
+    width: 300px;
+}
+#footer_center{
+    height: 305px;
+    width: 425px;;
+    /* border: 2px dashed red; */
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+#footer_right{
+    height: 305px;
+    width: 350px;
+    /* border: 2px solid green; */
+    font-size: 15px;
+    padding-top: 20px;
+}
+.fields{
+    width: 250px;
+    height: 35px;
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid rgb(208,207,200);
+}
+
+.btn {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1px;
+
+}
+

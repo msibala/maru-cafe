@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'maru_app/css/notes.css' %}">
+    <title>Notes</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+        </style>
+    <div id="container">
+        <div id="header">
+            <div id="headersides">
+                <a href="/">SHOPS</a>
+                <a href="/about">ABOUT</a>
+                <a href="/notes">NOTES</a>
+                <a href="/locations">LOCATIONS</a>
+            </div>
+            <div id="headercenter">
+               <H2>MARU COFFEE</H2>
+            </div>
+            <div class="headersides">
+                 <form action='/account' method="Post">
+                <a href="/account">ACCOUNT</a>
+                <a href="/search">SEARCH</a>
+                <a href="/cart">CART</a>
+            </div>
+        </div>
+        <div id="notes"><h1>NOTES</h1></div>
+        <div id="one_image">
+            {% load static %}
+            <img src="{% static 'maru_app/images/notes_one.png'%}" alt="My Image">
+        </div>
+        <div id="caption_main">
+            <br>
+            <br>
+            <h3>WITH GRATITUDE, MARU IN 2020</h3>
+            <br>
+            <b>From the beginning Maru has understood the importance of community but that has never 
+            been more true than in 2020. Like so many of our local busine...</b>
+        </div>
+        <div id="two_images">
+            <div class="dos_images">
+                <img src="{% static 'maru_app/images/notes_two.png'%}" alt="My Image">
+            </div>
+            <div class="dos_images">      
+                <img src="{% static 'maru_app/images/notes_three.png'%}" alt="My Image">
+            </div>
+            <div class="dos_images">      
+            </div>
+        </div> 
+        <div id="caption_box">
+            <div class="caption">
+                <h2>OUR COFFEE</h2>
+                <br>
+                <p>At Maru, we love the idea that "good coffee" can mean a hundrend
+                    different things to a hundred diffrent people, we love how much space it leaves fo... 
+                </p>
+                <br>
+            </div>
+            <div class="caption">
+                <h2>MARU IS NOW ONLINE</h2>
+                <br>
+                <p>Our venture into coffee, like so many good things, was a slow process.
+                    We started as baristas, spending years refining out craft and fine-tuning...
+                </p>
+            </div>
+            <div class="caption"></div>
+        </div>
+    </div>
+</body>
+</html> 
+
+
+
+

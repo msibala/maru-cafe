@@ -1,0 +1,151 @@
+*
+
+
+ {
+    margin: 0px auto;
+    padding: 0px auto; 
+   
+}
+
+#container{
+    height: 3600px;
+    width: 1600px;
+    background-color: rgb(240,239,231);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    /* border: 1px solid black; */
+    
+}
+  
+#header{
+    height: 50px;
+    width: 1450px;
+    padding-top: 20px;
+    word-spacing: 50px;
+    /* border: 1px solid green;  */
+    display: flex;
+    border-bottom: 2px solid rgb(212,211,205); 
+    letter-spacing: 1px;
+}
+#headersides{
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+#headercenter{
+    word-spacing: 15px;
+
+}
+#notes{
+    height: 100px;
+    width: 1485px;
+    text-align: center;
+    padding-top: 50px;
+    /* border: 2px solid black; */
+    font-weight:300;
+    letter-spacing: 1px;
+    
+}
+#one_image{
+    height: 500px;
+    width: 900px;
+    /* border: 2px solid red; */
+}
+img {
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    transition: all linear 0.7s; 
+
+}
+#caption_main{
+    height: 150px;
+    width: 900px;
+}
+#two_images{
+    height: 225px;
+    width: 950px;
+    /* border: 2px solid green; */
+    display: flex;
+    padding-top: 30px;
+
+}
+.dos_images{
+    height: 200px;
+    width: 300px;
+
+}
+#caption_box{
+    height: 250px;
+    width: 1000px;
+    display: inline-block;
+    /* border: 2px solid brown; */
+    display: flex;
+
+}
+.caption{
+    /* float: left; */
+    height: 200px;
+    width: 300px;
+    /* border: 2px solid blue; */
+}  
+#footer{
+    height: 341px;
+    width: 1594px;
+    /* border: 2px solid black; */
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+
+#footer_left{
+    height: 305px;
+    width: 300px;
+    /* border: 2px solid blue; */
+    padding-top: 20px;
+    
+} 
+#HorizontalList__Item{
+    height: 100px;
+    width: 100px;
+}
+a{
+    width: 100px;
+}
+#footer_center{
+    height: 305px;
+    width: 425px;;
+    /* border: 2px dashed red; */
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+#footer_right{
+    height: 305px;
+    width: 350px;
+    /* border: 2px solid green; */
+    font-size: 15px;
+    padding-top: 20px;
+}
+.fields{
+    width: 250px;
+    height: 35px;
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid rgb(208,207,200);
+}
+
+.btn {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'maru_app/css/locations.css' %}">
+    <title>LOCATIONS</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+        </style>
+    <div id="container">
+        <div id="header">
+            <div class="headersides">
+                <a href="/">SHOP</a></p>
+                <a href="/about">ABOUT</a></p>
+                <a href="/notes">NOTES</a></p>
+                <a href="/locations">LOCATIONS</a></p>
+            </div>
+            <div id="headercenter">
+                <H2>MARU COFFEE</H2>
+            </div>
+            <div class="headersides">
+                <p><a href="/account">ACCOUNT</a></p>
+                <p><a href="/search">SEARCH</a></p>
+                <p><a href="/cart">CART</a></p>
+            </div>
+        </div>
+        <div id="body">
+            <div id="center_body">
+                <div id="location">
+                    <h2>LOCATION  / CONTACT</h2>
+                </div>
+                <div id="address">
+                    <p><i>ARTS DISTRICT  |  artsdistrict@marucoffee.com</i></p>
+                    <p><i><u>1019 S. Santa Fe Ave Los Angeles, CA 90021</u></i></p>
+                    <p>Mon—Sun   8—5</p>
+                    <br>
+                    <br>
+                    <p>LOS FELIZ  |  losfeliz@marucoffee.com</p>
+                    <p><i><u>1936 Hillhurst Ave., Los Angeles, CA 90027</u></i></p>
+                    <p>Mon—Sat   7—5  |  Sun   8—5 </p>
+                </div>
+                <div id="coffee_partners">
+                    <i><b>OUR COFFEE PARTNERS</b></i>
+                </div>
+                <div id="damian">
+                    <p><b>DAMIAN  |  damiandtla.com  |  @damiandtla</b></p>
+                    <p>2132 E 7th Pl., Los Angeles, CA 90021</p>
+                </div>
+                <div id="cara_hotel">
+                    <p><b>CARA HOTEL  |  carahotel.com  |  @cara_hotel</b></p>
+                    <p>1730 N Western Ave., Los Angeles, CA 90027</p>
+                </div>
+               <div id="form">
+                <form action='/create_user' method="POST">
+                    {% csrf_token %}
+                    <div id="user_info">
+                        <input class="fields" type="text" name="name" value="Name"></p>
+                        <input class="fields" type="text" name="email" value="Email"></p>
+                    </div>
+                <br>
+                <br>
+                <input id="message" type="text" name="message" value="Your Message"></p>
+                <br>
+                <br>
+                <input class="btn" type="submit" value="SEND MESSAGE">
+                </form>
+            </div>
+            </div>
+        </div>
+</body>
+</html>

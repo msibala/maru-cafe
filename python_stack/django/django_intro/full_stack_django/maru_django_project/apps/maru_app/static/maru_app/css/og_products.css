@@ -1,0 +1,143 @@
+*
+{
+    margin: 0px;
+    padding: 0px; 
+   
+}
+
+#container{
+    height: 3600px;
+    width: 1490px;
+    background-color: rgb(240,239,231);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+#header{
+    height: 50px;
+    width: 1450px;
+    padding-top: 20px;
+    word-spacing: 50px;
+    display: flex;
+    border-bottom: 2px solid rgb(212,211,205);
+}
+#headersides{
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+#headercenter{
+    word-spacing: 15px;
+
+}
+#header2{
+    height: 75px;
+    width: 1400px;
+    text-align: center;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#body{
+    height: 3200px;
+    width: 1400px;
+}
+#body2{
+    height: 3200px;
+    width: 1400px;
+    display: flex;
+}
+#row_one{
+    height: 265px;
+    width: 1200px;
+    display: flex;
+}
+    
+#sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    background:  rgb(240,239,231);
+    width: 150px;
+    height: 100px;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    }
+#right{
+    height: 1300px;
+    width: 1300px;
+
+}
+.caption{
+    color: black;
+}
+ .box{
+    position: relative;
+    height: 250px;
+    width: 245px;
+    display: flex;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+
+}
+.menu {
+    float: left;
+    width: 20%;
+
+}
+img {
+    border-radius: 4px;
+    height: 250px;
+    width: 245px; 
+    transition: all linear 0.7s; 
+    padding-right: 20px;
+}
+img.hover-img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+   cursor: pointer;
+
+} 
+.box:hover img{
+    opacity: 0;
+}
+.box:hover img.hover-img{
+    opacity: 1; 
+
+} 
+ #row2{
+    height: 300px;
+    width: 1000px;
+    display: flex;
+} 
+#last_row{
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    
+}
+.captionflex{
+    height: 70px;
+    width: 1200px;
+    display: flex;
+    float: inherit;
+    color: rgb(57,56,55);
+
+
+}
+.caption{
+    width: 230px;
+    height: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    position:relative; top:2px;
+}
